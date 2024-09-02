@@ -23,9 +23,9 @@ class Musician:
         """
         return self._name
 
-    def play_tone(self, the_tone):
+    def play_note(self, the_tone):
         """
         Plays the musical note on the instrument.
         :param the_tone: der gespielte Ton
         """
-        print(f'{self._name} spielt mit {self._instrument.play_tone(the_tone)}')
+        print(f'{self._name} spielt mit {self._instrument.play_note(the_tone)}')
