@@ -14,8 +14,8 @@ def main():
     maxi = Musician('Max', guitar)
     moritz = Musician('Moritz', piano)
 
-    maxi.play_tone('a')
-    moritz.play_tone('f')
+    maxi.play_note('a')
+    moritz.play_note('f')
 
 
 if __name__ == '__main__':

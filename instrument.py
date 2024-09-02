@@ -21,10 +21,10 @@ class Instrument:
         """
         return self._designation
 
-    def play_tone(self, the_tone):
+    def play_note(self, the_note):
         """
         Plays one musical note.
-        :param the_tone:
+        :param the_note: The musical not to be played.
         :return: A text that shows the note played.
         """
-        return str(f'{self._designation} den Ton {the_tone}')
+        return str(f'{self._designation} den Ton {the_note}')
